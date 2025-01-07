@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand ms-4" href="#">
+                <a className="navbar-brand ms-4 mb-2" href="#">
                     <img src={logo} alt="Logo" width={80} />
                 </a>
                 <button
@@ -22,32 +22,32 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav myNav ms-auto">
-                        <li className="nav-item active me-5">
+                        <li className="nav-item active me-5 mb-1 ms-2">
                             <a className="nav-link" href="#">
                                 Destinations
                             </a>
                         </li>
-                        <li className="nav-item me-5">
+                        <li className="nav-item me-5 mb-1 ms-2">
                             <a className="nav-link" href="#">
                                 Hotels
                             </a>
                         </li>
-                        <li className="nav-item me-5">
+                        <li className="nav-item me-5 mb-1 ms-2">
                             <a className="nav-link" href="#">
                                 Flights
                             </a>
                         </li>
-                        <li className="nav-item me-5">
+                        <li className="nav-item me-5 mb-1 ms-2">
                             <a className="nav-link" href="#">
                                 Bookings
                             </a>
                         </li>
-                        <li className="nav-item me-5 align-content-center">
+                        <li className="nav-item me-5 align-content-center ms-2">
                             <Button color="danger" variant="outlined">
                                 Login
                             </Button>
-                        </li>
-                        <li className="nav-item me-5 align-content-center">
+                        </li> <br />
+                        <li className="nav-item me-5 align-content-center ms-2">
                             <Button color="danger" variant="solid">
                                 Sign up
                             </Button>
