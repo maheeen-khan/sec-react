@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'hi';
+    src: url(../fonts/Volkhov-Bold.ttf);
+    
+}
+.findBtn{
+    background-color: #F1A501 !important;
+    color: white !important;
+    box-shadow: rgb(98, 116, 135) 0px 14px 26px -10px !important;
+}
+.head{
+    font-family: 'hi';
+    font-size:60px !important;
+}
+
