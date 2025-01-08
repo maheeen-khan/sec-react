@@ -19,4 +19,10 @@
     .homeCont{
         order: 1 !important;
     }
+    
+}
+@media screen and (max-width:426px){
+    .homeCont{
+        padding: 9px;
+    }
 }
