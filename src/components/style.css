@@ -89,7 +89,9 @@
     transform: scale(0.95);
     transition-duration: 0.3s;
   }
-  
+.sec-head{
+    font-family:'hi';
+} 
 @media screen and (min-width: 426px){
     .homeImg{
         order: 2 !important;

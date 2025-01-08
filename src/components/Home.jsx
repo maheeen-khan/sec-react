@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Row, Divider } from 'antd';
 import traveller from '../assets/Traveller 1.png';
-import play from '../assets/Play button.png';
 import plane from '../assets/plane.png'
 
 import './style.css'
