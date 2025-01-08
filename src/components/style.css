@@ -4,9 +4,15 @@
     
 }
 .findBtn{
-    background-color: #F1A501 !important;
-    color: white !important;
+    border-color: #DF6951 !important;
+    color: #DF6951 !important;
+    border-radius: 22px !important;
+    background-color: rgb(239, 239, 239) !important;
     box-shadow: rgb(98, 116, 135) 0px 14px 26px -10px !important;
+
+}
+.findBtn:hover{
+    background-color: rgb(231, 231, 231) !important;
 }
 .head{
     font-family: 'hi';
@@ -18,6 +24,72 @@
     background-position: right;
     background-size: contain;
 }
+
+   
+/* From Uiverse.io by vinodjangid07 */ 
+.bookmarkBtn {
+    box-shadow: #DF6951 0px 11px 22px -10px !important;
+    width: 140px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+  }
+  
+  .IconContainer {
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to bottom, #ffd374, #DF6951);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: 0.3s;
+  }
+  
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .text {
+    height: 100%;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 11px;
+    color: white;
+    z-index: 1;
+    transition-duration: 0.3s;
+    font-size: 1.04em;
+  }
+  
+  .bookmarkBtn:hover .IconContainer {
+    width: 140px;
+    transition-duration: 0.3s;
+  }
+  
+  .bookmarkBtn:hover .text {
+    transform: translate(10px);
+    width: 0;
+    font-size: 0;
+    transition-duration: 0.3s;
+  }
+  
+  .bookmarkBtn:active {
+    transform: scale(0.95);
+    transition-duration: 0.3s;
+  }
+  
 @media screen and (min-width: 426px){
     .homeImg{
         order: 2 !important;
