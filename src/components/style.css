@@ -12,4 +12,11 @@
     font-family: 'hi';
     font-size:60px !important;
 }
-
+@media screen and (min-width: 426px){
+    .homeImg{
+        order: 2 !important;
+    }
+    .homeCont{
+        order: 1 !important;
+    }
+}
