@@ -33,7 +33,7 @@
     height: 40px;
     border-radius: 40px;
     border: 1px solid rgba(255, 255, 255, 0.349);
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(198, 198, 198);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +45,7 @@
   .IconContainer {
     width: 40px;
     height: 30px;
-    background: linear-gradient(to bottom, #ffd374, #DF6951);
+    background: linear-gradient(to bottom, #fbfb63, #DF6951);
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -106,5 +106,8 @@
     .head{
         font-size: 35px !important;
         margin-top: 30px !important;
+    }
+    .home{
+        background-image: none;
     }
 }
