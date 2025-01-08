@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <>
             {/* <Divider orientation="left">Percentage columns</Divider> */}
-            <Row className='my-3'>
+            <Row className='mb-3 home'>
 
                 <Col span={10} className='px-2 mt-3 homeImg' xs={24} sm={24} md={12} lg={12} xl={12}>
 
