@@ -43,12 +43,12 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="nav-item me-5 align-content-center ms-2">
-                            <Button color="danger" variant="outlined">
+                            <Button className='login' variant="outlined">
                                 Login
                             </Button>
                         </li> <br />
                         <li className="nav-item me-5 align-content-center ms-2">
-                            <Button color="danger" variant="solid">
+                            <Button className='signup' variant="solid">
                                 Sign up
                             </Button>
                         </li>
