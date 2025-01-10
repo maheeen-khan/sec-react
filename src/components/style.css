@@ -6,7 +6,7 @@
 .findBtn{
     border-color: #DF6951 !important;
     color: #DF6951 !important;
-    border-radius: 22px !important;
+    border-radius: 9px !important;
     background-color:#FFF1DA !important;
     box-shadow: rgb(98, 116, 135) 0px 14px 26px -10px !important;
 
@@ -133,7 +133,7 @@
     box-shadow: #DF6951 0px 11px 22px -10px !important;
     width: 140px;
     height: 40px;
-    border-radius: 40px;
+    border-radius: 9px;
     border: 1px solid rgba(255, 255, 255, 0.349);
     background-color: #4CC9FE;
     display: flex;
@@ -148,7 +148,7 @@
     width: 40px;
     height: 30px;
     background: linear-gradient(to bottom, #fbfb63, #DF6951);
-    border-radius: 50px;
+    border-radius: 47px;
     display: flex;
     align-items: center;
     justify-content: center;
