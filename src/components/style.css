@@ -194,6 +194,24 @@
 .sec-head{
     font-family:'hi';
 } 
+
+.thir-car{
+  height: 400px;
+  border-top: none;
+  border-radius: 16px !important;
+}
+.thir-car:hover{
+  background-color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+.thir-car img{
+  height: 300px !important;
+  border-radius: 16px !important;
+}
+.navImg img{
+  width: 16px !important;
+  height: 16px !important;
+}
 @media screen and (min-width: 426px){
     .homeImg{
         order: 2 !important;
