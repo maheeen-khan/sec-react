@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Category from './components/Category';
 import Selling from './components/Selling';
+import Booking from './components/Booking';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Home/>
     <Category/>
     <Selling/>
+    <Booking/>
     </>
   );
 }
