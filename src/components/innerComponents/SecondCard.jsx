@@ -6,7 +6,7 @@ const { Meta } = Card;
 const SecondCard = (props) => {
     return (
         <>
-        <div class="card" id="card">
+        <div class="card secCard" id="card">
         <div class="content">
 
 

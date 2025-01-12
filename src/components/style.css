@@ -356,6 +356,15 @@
 .for-img{
   border-radius: 15px;color: #DF6951;
 }
+.back{
+  background-image: url(../assets/back.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+  padding: 20px;
+}
 @media screen and (min-width: 426px){
     .homeImg{
         order: 2 !important;

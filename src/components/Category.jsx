@@ -10,6 +10,7 @@ import pic4 from '../assets/sec4.png'
 const Category = () => {
     return (
         <>
+        <div className="container-fluid back">
             <div className="container my-5">
                 <p className='text-center' style={{ color: 'grey', fontWeight: '500' }}>CATEGORY</p>
                 <h2 className='text-center sec-head mb-5'>We Offer Best Services</h2>
@@ -32,6 +33,7 @@ const Category = () => {
                     </div>
                 </Row>
             </div>
+        </div>
         </>
     )
 }

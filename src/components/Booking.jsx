@@ -17,7 +17,7 @@ const Booking = () => {
             <Row className='d-flex flex-wrap'>
 
                 <Col>
-                <div className="bg-warning p-2 rounded">
+                <div className="bg-warning p-2 rounded mb-2">
                 <img src={icon1} alt="" className='iconImg' />
                 </div>
                 </Col>
@@ -30,7 +30,7 @@ const Booking = () => {
 
             <Row>
                 <Col>
-                <div className="bg-danger p-2 rounded">
+                <div className="bg-danger p-2 rounded mb-2">
                 <img src={icon2} alt="" className='iconImg' />
                 </div>
                 </Col>
@@ -42,7 +42,7 @@ const Booking = () => {
 
             <Row>
                 <Col>
-                <div className="bg-primary p-2 rounded">
+                <div className="bg-primary p-2 rounded mb-2">
                 <img src={icon3} alt="" className='iconImg'/>
                 </div>
                 </Col>
