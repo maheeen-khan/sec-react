@@ -7,12 +7,13 @@ import ForthCard from './innerComponents/ForthCard'
 const Booking = () => {
   return (
     <>
-    <div className="container my-5">
+    <div className=""  style={{backgroundColor:'rgb(243, 243, 243)'}}>
+    <div className="container my-5 py-5">
 
         <Row>
-            <Col>
-            <h6 style={{color:'rgb(104, 104, 104)'}}>Easy and Fast</h6>
-            <h2 className='mb-5' style={{fontFamily:'hi'}}>Book your next trip in 3 easy steps</h2> <br />
+            <Col span={12} offset={1}>
+            <h6 style={{color:'rgb(104, 104, 104)'}} className='mb-4'>Easy and Fast</h6>
+            <h2 className='mb-4' style={{fontFamily:'hi'}}>Book your next trip in 3 easy steps</h2> <br />
             <Row>
                 <Col>
                 <div className="bg-warning p-2 rounded">
@@ -52,12 +53,13 @@ const Booking = () => {
             </Col>
             
                
-            <Col span={6} offset={6}>
+            <Col span={5} offset={4} className='mt-4'>
            
                <ForthCard/>
 
             </Col>
         </Row>
+    </div>
     </div>
     </>
   )
