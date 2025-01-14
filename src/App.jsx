@@ -6,6 +6,7 @@ import Category from './components/Category';
 import Selling from './components/Selling';
 import Booking from './components/Booking';
 import Feedbacks from './components/Feedbacks';
+import Sponsor from './components/Sponsor';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Selling/>
     <Booking/>
     <Feedbacks/>
+    <Sponsor/>
     </>
   );
 }
