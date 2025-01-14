@@ -446,6 +446,27 @@
 
 }
 
+.spon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spon-img1{
+  width: 90px;
+}
+.spon-img2{
+  width: 100px;
+}
+.spon-img3{
+  width: 170px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.spon-img4{
+  width: 110px;
+}
+.spon-img5{
+  width: 85px;
+}
 @media screen and (min-width: 426px){
     .homeImg{
         order: 2 !important;
