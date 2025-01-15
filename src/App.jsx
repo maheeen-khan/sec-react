@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -7,6 +6,7 @@ import Selling from './components/Selling';
 import Booking from './components/Booking';
 import Feedbacks from './components/Feedbacks';
 import Sponsor from './components/Sponsor';
+import Subscribe from './components/Subscribe';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
     <Booking/>
     <Feedbacks/>
     <Sponsor/>
+    <Subscribe/>
     </>
   );
 }
