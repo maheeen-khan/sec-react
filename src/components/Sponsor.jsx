@@ -8,7 +8,7 @@ import img5 from '../assets/spon5.png'
 const Sponsor = () => {
   return (
     <>
-    <div className="container my-5 pt-5">
+    <div className="container my-5 pt-5 spon-cont">
         <div className="row spon pt-3">
             <div className="col">
                 <img src={img1} alt="" className='spon-img1'/>

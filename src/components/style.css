@@ -449,8 +449,9 @@
 
 .spon{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
 }
 .spon-img1{
   width: 90px;
@@ -568,6 +569,7 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
 @media screen and (min-width: 426px){
     .homeImg{
         order: 2 !important;
@@ -587,5 +589,16 @@
     }
     .home{
         background-image: none;
+    }
+    .spon-img3{
+      margin-top: 10px !important;
+      margin-bottom: 18px !important;
+    }
+    .feedCards{
+      margin-top: 60px !important;
+      margin-left: 29px;
+    }
+    .feed{
+      padding: 30px !important;
     }
 }
