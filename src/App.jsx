@@ -7,6 +7,7 @@ import Booking from './components/Booking';
 import Feedbacks from './components/Feedbacks';
 import Sponsor from './components/Sponsor';
 import Subscribe from './components/Subscribe';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <Feedbacks/>
     <Sponsor/>
     <Subscribe/>
+    <Contact/>
     </>
   );
 }
