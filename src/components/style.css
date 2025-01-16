@@ -98,7 +98,7 @@
   display: block;
   width: 90px;
   height: 360px;
-  background: linear-gradient(#fbfb63, #4CC9FE);
+  background: linear-gradient(#ffff00, #00b3ff);
   transition: opacity 250ms;
   animation: rotation_9018 8000ms infinite linear;
   animation-play-state: paused;
@@ -358,7 +358,7 @@
   border-radius: 15px;color: #DF6951;
 }
 .back{
-  background-image: url(../assets/back.webp);
+  background-image: url(../assets/back2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
