@@ -10,7 +10,7 @@ const Selling = () => {
         <>
             <div className="container text-center pt-4">
 
-                <p>Top Selling</p>
+                <p style={{ color: 'grey', fontWeight: '500', textTransform:'uppercase' }}>Top Selling</p>
                 <h2 className='mb-5 third-head'>Top Destinations</h2>
 
                 <Row className='d-flex justify-content-center gap-4'>

@@ -8,7 +8,9 @@ const Home = () => {
     return (
         <>
             {/* <Divider orientation="left">Percentage columns</Divider> */}
-            <Row className='mb-3 home'>
+            <div className="container-fluid home">
+            <div className="container">
+            <Row className='mb-3'>
 
                 <Col span={10} className='px-2 mt-3 homeImg' xs={24} sm={24} md={12} lg={12} xl={12}>
 
@@ -17,7 +19,7 @@ const Home = () => {
                 </Col>
 
 
-                <Col span={10} className='p-lg-5 p-md-5 mt-5 homeCont' xs={24} sm={24} md={12} lg={12} xl={12}>
+                <Col span={10} className='p-lg-4 p-md-5 mt-5 homeCont' xs={24} sm={24} md={12} lg={12} xl={12}>
                     <h6 style={{ textTransform: 'uppercase', color: '#DF6951' }} className='mb-3'>Best Destinations around the world</h6>
                     <h1 className="head mb-4" style={{ fontWeight: '500', color: 'rgb(124, 124, 124)' }}>Travel, enjoy
                         and live a new
@@ -51,6 +53,8 @@ const Home = () => {
 
 
             </Row>
+            </div>
+            </div>
         </>
     )
 }
