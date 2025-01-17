@@ -575,8 +575,8 @@ ul li{
 /* From Uiverse.io by Yaya12085 */ 
 .end-card {
   max-width: 350px;
-  background-color: rgb(7 16 45);
-  background: linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+  background-color: #4CC9FE;
+  background: linear-gradient(to left, #4CC9FE, rgb(58 60 84));
   background: -webkit-linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
   display: flex;
   flex-direction: column;
@@ -594,7 +594,7 @@ ul li{
 }
 
 .small-text {
-  color: #488aec;
+  color: #4CC9FE;
   font-size: 14px;
 }
 
@@ -605,7 +605,7 @@ ul li{
 }
 
 .desc {
-  color: rgb(151 153 167);
+  color: rgb(227, 227, 227);
   font-size: 13px;
 }
 
@@ -629,7 +629,7 @@ ul li{
 
 .end-button:first-child {
   box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
-  background-color: #488aec;
+  background-color: #4CC9FE;
 }
 
 .end-button:last-child {
@@ -663,7 +663,7 @@ ul li{
 }
 
 .google span:first-child {
-  color: rgb(219 206 253);
+  color: rgb(255, 255, 255);
 }
 
 .apple span:first-child {
