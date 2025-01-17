@@ -13,7 +13,7 @@ const Selling = () => {
                 <p>Top Selling</p>
                 <h2 className='mb-5 third-head'>Top Destinations</h2>
 
-                <Row className='gap-4'>
+                <Row className='d-flex justify-content-center gap-4'>
                     <Col>
 
                         <ThirdCard img={img1} name={'Rome, Italty'} price={'$5,42k'} days={'10 Days Trip'} />

@@ -679,6 +679,7 @@ ul li{
   color: #000;
   font-weight: 800;
 }
+
 @media screen and (min-width: 426px){
     .homeImg{
         order: 2 !important;
