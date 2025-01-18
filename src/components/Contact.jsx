@@ -3,14 +3,14 @@ import logo from '../assets/Logo.png'
 const Contact = () => {
     return (
         <>
-            <div className="container px-5 pt-5 mt-3">
+            <div className="container px-3 pt-5 mt-3">
                 <div className="row">
-                    <div className="col-lg-2 col-md-2 col-sm-6 align-content-center">
+                    <div className="col-lg-2 col-md-2 bot1 align-content-center">
                         <img src={logo} alt="" width={80} className='mb-3'/>
                         <br />
                         <p className='small' style={{color:'rgb(94, 94, 94)'}}>Book your trip in minute, get full Control for much longer.</p>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-6 align-content-center">
+                    <div className="col-lg-2 col-md-2 bot align-content-center">
                         <ul style={{ color: 'rgb(94, 94, 94)' }}>
                             <li className='fw-bold mb-3' style={{ color: 'black' }}>Company</li>
                             <li className='small'>About</li>
@@ -18,7 +18,7 @@ const Contact = () => {
                             <li className='small'>Mobile</li>
                         </ul>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-6 align-content-center">
+                    <div className="col-lg-2 col-md-2 bot align-content-center">
                         <ul style={{ color: 'rgb(94, 94, 94)' }}>
                             <li className='fw-bold mb-3' style={{ color: 'black' }}>Contact</li>
                             <li className='small'>Help/FAQ</li>
@@ -26,7 +26,7 @@ const Contact = () => {
                             <li className='small'>Affilates</li>
                         </ul>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-6 align-content-center">
+                    <div className="col-lg-2 col-md-2 bot3 align-content-center">
                         <ul style={{ color: 'rgb(94, 94, 94)' }}>
                             <li className='fw-bold mb-3' style={{ color: 'black' }}>More</li>
                             <li className='small'>Airlinefees</li>
@@ -34,7 +34,7 @@ const Contact = () => {
                             <li className='small'>Low fare tips</li>
                         </ul>
                     </div>
-                    <div className="col">
+                    <div className="col bot4">
 
                         <div class="end-card">
                             <span class="small-text">Download Now!</span>
