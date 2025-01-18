@@ -679,9 +679,7 @@ ul li{
   color: #000;
   font-weight: 800;
 }
-.bot ,.bot3 {
-  width: 50% !important;
-}
+
 
 @media screen and (max-width:320px){
   .findBtn{
@@ -727,5 +725,8 @@ ul li{
     }
     .bot4{
       margin-top: 28px !important;
+    }
+    .bot ,.bot3 {
+      width: 50% !important;
     }
 }
