@@ -15,11 +15,12 @@ const Feedbacks = () => {
 
         <Col className='d-flex feedCards'>
        
-        <div className="col1">
+        <div className="col1"  data-aos="zoom-in-up" data-aos-easing="ease-in">
         <FifthCard/>
         </div>
+        <div className="" data-aos="zoom-in-up" data-aos-easing="ease-in">
         <FifthCard/>
-        
+        </div>
         </Col>
 
     </Row>

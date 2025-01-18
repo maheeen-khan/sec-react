@@ -14,7 +14,7 @@ const Home = () => {
 
                 <Col span={10} className='px-2 mt-3 homeImg' xs={24} sm={24} md={8} lg={12} xl={12}>
 
-                    <img src={plane} alt="" />
+                    <img src={plane} alt="" data-aos="fade-up"  data-aos-anchor-placement="center-center"/>
                     <img src={traveller} alt="" className='img-fluid' width={370} />
                 </Col>
 
