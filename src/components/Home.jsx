@@ -12,14 +12,14 @@ const Home = () => {
             <div className="container">
             <Row className='mb-3'>
 
-                <Col span={10} className='px-2 mt-3 homeImg' xs={24} sm={24} md={12} lg={12} xl={12}>
+                <Col span={10} className='px-2 mt-3 homeImg' xs={24} sm={24} md={8} lg={12} xl={12}>
 
                     <img src={plane} alt="" />
                     <img src={traveller} alt="" className='img-fluid' width={370} />
                 </Col>
 
 
-                <Col span={10} className='p-lg-4 p-md-5 mt-5 homeCont' xs={24} sm={24} md={12} lg={12} xl={12}>
+                <Col span={10} className='p-lg-4 p-md-5 mt-5 homeCont' xs={24} sm={24} md={16} lg={12} xl={12}>
                     <h6 style={{ textTransform: 'uppercase', color: '#DF6951' }} className='mb-3'>Best Destinations around the world</h6>
                     <h1 className="head mb-4" style={{ fontWeight: '500', color: 'rgb(124, 124, 124)' }}>Travel, enjoy
                         and live a new

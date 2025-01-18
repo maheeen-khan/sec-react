@@ -15,7 +15,7 @@ const Category = () => {
                 <p className='text-center' style={{ color: 'grey', fontWeight: '500' }}>CATEGORY</p>
                 <h2 className='text-center sec-head mb-5'>We Offer Best Services</h2>
                 <Row>
-                    <div className="secCards d-flex flex-wrap  gap-4 mt-3 text-center mx-auto">
+                    <div className="secCards d-flex flex-wrap justify-content-center gap-4 mt-3 text-center mx-auto">
                         
                             <SecondCard title={'Calculated Weather'} des={'Built Wicket longer admire do barton vanity itself do in it.'} img={pic1} size={'100px'} />
                         
