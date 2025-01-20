@@ -351,8 +351,8 @@
 }
 
 .f-card .bottom-section .row .item:nth-child(2) {
-  border-left: 1px solid rgba(255, 255, 255, 0.126);
-  border-right: 1px solid rgba(255, 255, 255, 0.126);
+  border-left: 1px solid rgb(184, 182, 182);
+  border-right: 1px solid rgb(184, 182, 182);
 }
 .for-img{
   border-radius: 15px;color: #DF6951;
